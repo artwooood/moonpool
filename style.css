@@ -255,6 +255,31 @@ p, h1, h2, h3, h4, h5, h6 {
     line-height: 1.7;
 }
 
+.client {
+    background-color: #232647;
+    padding: 40px 0;
+}
+
+.client .title {
+    margin-bottom: 40px;
+}
+
+.client__block {
+    text-align: center;
+}
+
+.client__image {
+    height: 80px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+.client__image:hover {
+    background: #303460;
+}
+
 .action {
     background-color: #1f2234;
     text-align: center;
